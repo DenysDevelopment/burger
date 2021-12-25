@@ -280,21 +280,21 @@ a {
   height: 22.5rem;
 }
 
-.quote__animation img {
+.quote__animation picture img {
   position: absolute;
 }
 
-.quote__animation img:nth-child(1) {
+.quote__animation picture:nth-child(1) img {
   bottom: 8px;
   left: 50px;
 }
 
-.quote__animation img:nth-child(2) {
+.quote__animation picture:nth-child(2) img {
   right: 5px;
   bottom: 70px;
 }
 
-.quote__animation img:nth-child(3) {
+.quote__animation picture:nth-child(3) img {
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
@@ -302,12 +302,12 @@ a {
           transform: translate(-50%, -50%);
 }
 
-.quote__animation img:nth-child(4) {
+.quote__animation picture:nth-child(4) img {
   top: 70px;
   left: -15px;
 }
 
-.quote__animation img:nth-child(5) {
+.quote__animation picture:nth-child(5) img {
   top: 0;
   left: 230px;
 }
